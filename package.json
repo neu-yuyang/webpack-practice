@@ -1,0 +1,12 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/neu-yuyang/webpack-practice.git",
+  "author": "uzumaki naruto <neu_yuyang@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

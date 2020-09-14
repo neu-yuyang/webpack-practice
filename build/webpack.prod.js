@@ -16,7 +16,6 @@ const TerserJSPlugin = require("terser-webpack-plugin")
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin")
 
 const base = require("./webpack.base")
-const { module } = require("./webpack.dev")
 const config = {
   bundleAnalyzerReport: false,
   productionGzip: true

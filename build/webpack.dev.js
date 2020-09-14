@@ -7,7 +7,7 @@ module.exports = merge(base, {
   devServer: {
     contentBase: "../dist",
     hot: true,
-    host: "0.0.0.0", // 设置0.0.0.0后， 其他机器可以通过ip访问
+    // host: "0.0.0.0", // 设置0.0.0.0后， 其他机器可以通过ip访问
     // port: "8080",
     quiet: false,
     clientLogLevel: "warning",

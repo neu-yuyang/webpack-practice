@@ -1,3 +1,7 @@
 body {
   background-color: goldenrod;
+  transform: translateX(10px);
+}
+::placeholder {
+  color: gray;
 }

@@ -9,6 +9,7 @@
     "dev": "webpack-dev-server --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
     "eslint": "npx eslint ./src/**/*.js",
+    "stylelint": "npx stylelint ./src/**",
     "prettier": "npx prettier --write ./src/**"
   },
   "devDependencies": {
@@ -39,6 +40,10 @@
     "postcss-preset-env": "^6.7.0",
     "prettier": "2.1.2",
     "style-loader": "^1.2.1",
+    "stylelint": "^13.7.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
     "terser-webpack-plugin": "^4.2.0",
     "webpack": "^4.44.1",
     "webpack-bundle-analyzer": "^3.8.0",

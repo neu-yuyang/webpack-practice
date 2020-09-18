@@ -1,3 +1,7 @@
 module.exports = {
-  plugins: [require("postcss-import"), require("postcss-preset-env")()]
+  plugins: [
+    require("stylelint"),
+    require("postcss-import"),
+    require("postcss-preset-env")()
+  ]
 }

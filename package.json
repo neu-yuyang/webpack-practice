@@ -32,6 +32,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "html-webpack-plugin": "^4.4.1",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
     "mini-css-extract-plugin": "^0.11.2",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
     "postcss-import": "^12.0.1",
@@ -56,5 +58,20 @@
     "not dead",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write",
+      "eslint --cache --fix"
+    ],
+    "src/**/*.css": [
+      "prettier --write",
+      "stylelint --cache --fix"
+    ]
+  }
 }

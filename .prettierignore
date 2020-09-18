@@ -33,3 +33,5 @@ dist
 .postcssrc.js
 .editorconfig
 .babelrc
+.eslintignore
+.eslintrc.js

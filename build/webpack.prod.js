@@ -45,7 +45,15 @@ const webpackConfig = merge(base, {
               esModule: true
             }
           },
-          "css-loader"
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1
+            }
+          },
+          {
+            loader: "postcss-loader"
+          }
         ]
       }
     ]

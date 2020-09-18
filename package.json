@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
+    "eslint": "npx eslint ./src/**/*.js",
     "prettier": "npx prettier --write ./src/**"
   },
   "devDependencies": {
@@ -19,6 +20,15 @@
     "compression-webpack-plugin": "^5.0.2",
     "core-js": "^3.6.5",
     "css-loader": "^4.3.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-recommended": "^4.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "html-webpack-plugin": "^4.4.1",
     "mini-css-extract-plugin": "^0.11.2",
     "optimize-css-assets-webpack-plugin": "^5.0.4",

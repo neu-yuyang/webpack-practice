@@ -4,7 +4,6 @@ function foo() {
   const obj = {
     age: 11
   }
-
   const objBak = {
     name: "yy",
     ...obj
